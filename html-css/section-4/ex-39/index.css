@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* Style for the "Play Now" button container */
+.play-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; 
+    color: #fff; 
+    border: 3px solid #2971b9; 
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 25%;
+}
+
+
+.game-controller {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.play-now-button:hover{
+    background-color:blue;
+}

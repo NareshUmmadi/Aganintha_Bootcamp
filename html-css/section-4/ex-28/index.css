@@ -1,0 +1,17 @@
+.shop-now-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #f0e6e6;
+    color: #292929;
+    font-family: cursive;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #e6dede; 
+  }
+  

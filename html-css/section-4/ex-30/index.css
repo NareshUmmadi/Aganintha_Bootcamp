@@ -1,0 +1,71 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background image or color to the entire page */
+body {
+    background-image: url('resturent.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the header and main content */
+header, main {
+    text-align: center;
+    padding: 50px 0; /* Equal top and bottom padding */
+}
+
+/* Style the header */
+header h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffc72d;
+}
+
+/* Style the menu section */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu h2{
+    color:#fff;
+}
+.dish {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px; /* Equal top and bottom padding */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dish img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.dish h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.dish p {
+    font-size: 16px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0; /* Equal top and bottom padding */
+    background-color: #333;
+    color: #fff;
+}

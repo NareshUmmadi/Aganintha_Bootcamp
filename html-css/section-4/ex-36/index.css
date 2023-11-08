@@ -1,0 +1,14 @@
+
+.quote-box {
+    border: 2px solid #2a80b9; 
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+/* Style for the quote text */
+.quote-text {
+    font-size: 20px;
+    font-style: italic;
+    color: #333;
+}

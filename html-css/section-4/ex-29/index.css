@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: #f0f0f0; /* Sidebar background color */
+    padding: 20px 20px 20px 0; /* Apply 20px padding to the top and left sides of the sidebar */
+    width: 250px; /* Adjust the sidebar width as needed */
+    height: 100%; /* Adjust the sidebar height as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto; /* Add scrollbars if needed for long content */
+}
+
+.destination-list {
+    list-style: none;
+    padding: 0;
+}
+
+.destination-list li {
+    margin-bottom: 10px; /* Space between destination links */
+}
+
+.destination-list a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold;
+    font-size: 16px; /* Font size */
+    display: block; /* Make the links block-level for spacing and clickability */
+}
+
+/* Additional styling can be added as needed */

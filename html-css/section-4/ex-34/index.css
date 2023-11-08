@@ -1,0 +1,40 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.blog-container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.blog-content {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+.blog-content h1, .blog-content h2, .blog-content h3 {
+    color: #333;
+}
+
+.blog-content a {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px solid #3498db;
+}
+
+.blog-content a:hover {
+    color: #2a80b9;
+    border-bottom: 2px solid #2a80b9;
+}
