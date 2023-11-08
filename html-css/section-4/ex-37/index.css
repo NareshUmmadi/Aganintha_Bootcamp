@@ -21,20 +21,20 @@
     background-color: #fff;
 }
 
-/* Style for product images */
+
 .product-image img {
     max-width: 100%;
     height: auto;
 }
 
-/* Style for product titles */
+
 .product-title {
     font-size: 18px;
     color: #333;
     margin: 10px 0;
 }
 
-/* Style for product prices */
+
 .product-price {
     font-size: 16px;
     color: #2a80b9;

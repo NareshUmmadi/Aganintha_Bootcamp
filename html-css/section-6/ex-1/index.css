@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: blanchedalmond;
+    gap:10px;
+}
+
+.grid-container{
+    text-align: center;
+    align-items: center;
+    background-color: cadetblue ;
+    font-size: 1.5rem;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}

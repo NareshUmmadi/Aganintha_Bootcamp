@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: blanchedalmond;
+    gap:20px;
+}
+
+.grid-container{
+    text-align: center;
+    align-items: center;
+    background-color: cadetblue ;
+    font-size: 1.5rem;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+@media (min-width: 800px) and (max-width: 1100){
+    .container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+      grid-template-columns: repeat(1, 1fr); 
+    }
+}

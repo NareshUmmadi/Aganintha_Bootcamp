@@ -1,0 +1,48 @@
+.pricing-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-table-header {
+    display: flex;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .pricing-table-header-item {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .pricing-table-row {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .pricing-table-cell {
+    flex: 1;
+    border-right: 1px solid #ccc;
+    :last-child {
+      border-right: none;
+    }
+  }
+  
+  .pricing-table-cell ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .pricing-table-cell li {
+    margin-bottom: 10px;
+  }
+  

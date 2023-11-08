@@ -20,7 +20,7 @@
   }
   
   .thumbnails img {
-    width: 120px; /* Uniform width for thumbnails */
+    width: 120px; 
     height: auto;
     object-fit: cover;
     border-radius: 5px;
@@ -29,6 +29,6 @@
   }
   
   .thumbnails img:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.1);
   }
   

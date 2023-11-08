@@ -1,0 +1,41 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Space events evenly horizontally */
+    align-items: center; /* Vertically center event icons and info */
+    padding: 20px;
+  }
+  
+  .event {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add spacing between events */
+  }
+  
+  .event-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .event-info {
+    flex: 1;
+  }
+  
+  .event-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .event-info p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

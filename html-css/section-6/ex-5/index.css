@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.product-catalog {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: 300px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}
+/* Styles for Product 1 */
+.product1 {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product1 img {
+    max-width: 100%;
+    height: 300px;
+}
+
+.product1 h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333; /* Change text color for Product 1 */
+}
+
+.product1 p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Styles for Product 2 */
+.product2 {
+    background-color: #e6f7ff; /* Change background color for Product 2 */
+    border: 1px solid #3399ff; /* Change border color for Product 2 */
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product2 img {
+    max-width: 100%;
+    height:300px;
+}
+
+.product2 h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product2 p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Styles for Product 3 */
+.product3 {
+    background-color: #f2f2f2; /* Change background color for Product 3 */
+    border: 1px solid #999; /* Change border color for Product 3 */
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product3 img {
+    max-width: 100%;
+    height: 300PX;
+}
+
+.product3 h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product3 p {
+    font-size: 1rem;
+    color: #666;
+}
