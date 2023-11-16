@@ -13,7 +13,7 @@ function double(num){
 function square(num){
     return num*num;
 }
-
+  console.log(composed(square,double,10));
   const composedFunction=composed(square,double);
 
   const result=composedFunction(5);
