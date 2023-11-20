@@ -46,16 +46,15 @@ body {
   
   .nav-bar span {
     padding-right: 20px;
-    text-decoration: underline overline; /* Applying both underline and overline */
+    text-decoration: underline overline; 
   }
   
-  /* Style for the main content */
+ 
   .main {
     /* margin-top:80px; */
     width: 800px;
     margin: auto;
-    /* align-items: center;
-    text-align: center; */
+    
     
   }
    heading1 a{
@@ -140,9 +139,17 @@ body {
     border-radius: 4px;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    background-color: #e0e5ef;
 }
 .formGroup input[type="email"]{
     width:300px;
+}
+.formGroup button{
+  background-color: #0a2458;
+  padding:10px;
+  border-radius: 10px;
+  color:#ffffff;
+  width:100px;
 }
 
 
@@ -167,14 +174,14 @@ footer {
 }
 
 nav {
-    display: flex; /* Display links in a row */
-    gap: 10px; /* Adjust spacing between links */
+    display: flex;
+    gap: 10px; 
     flex-direction: column;
 }
 
 nav a {
-    display: inline-block; /* Display links in a row */
-    /* Additional styles for the links if needed */
+    display: inline-block; 
+    
     text-align: left;
     text-decoration: underline;
 }
@@ -182,6 +189,112 @@ nav a {
 .grid2 a{
     text-decoration: none;
     font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .nav-bar{
+    /* float: right; */
+    margin-left: 100vh;
+  }
+
+  .nav-bar a {
+    display: none;
+  }
+
+  .nav-bar span {
+    display: inline-block;
+    
+   
+  }
+
+  
+  body {
+    font-size: clamp(10px, 4vw, 18px); 
+  }
+  .boarderLine {
+      grid-template-columns: 1fr; /* Change to a single column layout */
+    }
+  
+    .boarderLine > div:nth-child(1),
+    .boarderLine > div:nth-child(2) {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .formGroup input[type="email"] {
+      width: 100%; /* Make the email input full width */
+    }
+
+    footer {
+      width: 97%;
+      margin-top: 20px;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top:50px;
+     
+  }
+  .grid1,
+.grid2 {
+  
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.grid2{
+  margin-top: 15px;
+  padding-left: 20px;
+
+}
+.footer-fourth-para{
+  margin-top: 10px;
+ 
+  text-align: left;
+
+}
+
+
+.blu-Bar {
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%; 
+  background-color: #116abe;
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 20px 0; 
+}
+
+.blu-Bar h2 {
+  font-size: 2em; 
+}
+
+
+.boarderLine {
+  width: 94%; 
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column; 
+  border: 3px solid #0a2458;
+  padding: 20px; 
+}
+
+.boarderLine > div:nth-child(1),
+.boarderLine > div:nth-child(2) {
+  text-align: left;
+  padding: 10px 0;
+}
+
+
+
+
+}
+
+
+body {
+  font-size: 16px; 
 }
 
 
