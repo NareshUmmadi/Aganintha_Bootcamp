@@ -10,7 +10,7 @@ async function  fetchUserData (userId){
 
       const data= await response.json();
 
-    //    console.log("Reterived user data:"+ data);
+      //  console.log("Reterived user data:"+ data);
 
        return data;
    }
@@ -21,3 +21,6 @@ async function  fetchUserData (userId){
 
     console.log(`Concanting name and Email \n ${response.username}-${response.email}`);
    })
+
+
+  

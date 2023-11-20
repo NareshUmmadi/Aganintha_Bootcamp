@@ -1,0 +1,188 @@
+
+body {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color:#193162;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    padding-top:20px;
+    padding-bottom: 20px;
+    /* background-color: #f0f0f0; */
+    width:100%;
+    margin-bottom:25px;
+    /* position: fixed; */
+  }
+  .img1{
+     width:5px;
+     height:10px;
+     border-radius: 1px;;
+  }
+  
+  header h3 {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .nav-bar {
+    float: right;
+    margin-bottom: 20px;
+  }
+  
+  .nav-bar a {
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+  .nav-bar a:nth-last-child(){
+    color: #122b5d;
+  }
+  
+  .nav-bar span {
+    padding-right: 20px;
+    text-decoration: underline overline; /* Applying both underline and overline */
+  }
+  
+  /* Style for the main content */
+  .main {
+    /* margin-top:80px; */
+    width: 800px;
+    margin: auto;
+    /* align-items: center;
+    text-align: center; */
+    
+  }
+   heading1 a{
+    padding: 20px;;
+   }
+   .heading h1{
+    color: #122b5d;
+    font-size: 50px;
+   }
+   .heading4{
+      color:#5e6e90;
+   }
+
+  /* .heading{
+    width:
+  } */
+  .paras{
+    width:600px;
+    margin:auto;
+    text-align: left;
+    
+  } 
+  .paras p{
+    margin-left: 0%;
+  }
+  time{
+    margin-left: 0px;;
+  }
+
+  .blu-Bar{
+    margin-left:1.5%;
+    margin-right: 1.5%;
+    width:97%;
+    background-color: #116abe;
+    /* height:auto; */
+    border-radius: 50px;
+    color:#ffffff;
+
+  }
+
+  .blu-Bar h2{
+    font-size: 35px;
+  }
+  .vice{
+    padding:50px;
+  }
+  .boarderLine {
+    width: 97%;
+    margin-top: 20px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 3px solid #0a2458;
+    /* padding: 50px; */
+}
+.boarderLine > div:nth-child(1) {
+    text-align: left;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.boarderLine > div:nth-child(2) {
+    text-align: left;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: inline-block;
+    margin-bottom: 5px;
+   
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup input[type="submit"] {
+    width: auto;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.formGroup input[type="email"]{
+    width:300px;
+}
+
+
+footer {
+    width: 97%;
+    margin-top: 20px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:50px;
+   
+}
+
+.grid1,
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid1{
+    padding-left:20px;
+}
+
+nav {
+    display: flex; /* Display links in a row */
+    gap: 10px; /* Adjust spacing between links */
+    flex-direction: column;
+}
+
+nav a {
+    display: inline-block; /* Display links in a row */
+    /* Additional styles for the links if needed */
+    text-align: left;
+    text-decoration: underline;
+}
+
+.grid2 a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+

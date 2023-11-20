@@ -22,7 +22,7 @@ class SpecializedBook extends Book{
 
     constructor(title,author,pages,noOfBooks,topic="General"){
 
-        super(title,author,noOfBooks,noOfBooks);
+        super(title,author,pages,noOfBooks);
         this._topic=topic;
 
     }

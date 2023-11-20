@@ -34,9 +34,9 @@ class Book{
   const author2=new Author('RavindharnathTagore', 1908, 'Indian');
 
 
-  const book1 = new Book('The Catcher in the Rye', [author1], 224);
-const book2 = new Book('To Kill a Mockingbird', [author2], 281);
-const book3 = new Book('Joint Book', [author1, author2], 400);
+  const book1 = new Book('The Catcher in the Rye', [author1], 224,35);
+const book2 = new Book('To Kill a Mockingbird', [author2], 281,33);
+const book3 = new Book('Joint Book', [author1, author2], 400,56);
 
 console.log(book1._title, book1._authors[0]._name, book1._authors[0]._nationality, book1._pages);
 console.log(book2._title, book2._authors[0]._name, book2._authors[0]._nationality, book2._pages);

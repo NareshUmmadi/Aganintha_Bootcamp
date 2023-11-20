@@ -9,7 +9,7 @@ const LoggerMixin={
  class Book{
     
     _title;
-    _authors;
+    _authors=[];
     _publicationDate
     _status;
    
@@ -77,7 +77,7 @@ class Library{
     
           return book;
         } else {
-          Logger.log(`Book with title "${title}" is not available for borrowing.`);
+          console.log(`Book with title "${title}" is not available for borrowing.`);
           return null;
         }
       }
@@ -91,7 +91,7 @@ class Library{
 
 
 
-const book1 = new Book('The Catcher in the Rye', ['J.D. Salinger'], '1951-07-16');
+const book1 = new Book('The Catcher in the Rye', ['J.D. Salinger','wilson thomus'], '1951-07-16');
 const book2 = new Book('To Kill a Mockingbird', ['Harper Lee'], '1960-07-11');
 
 const library = new Library();
