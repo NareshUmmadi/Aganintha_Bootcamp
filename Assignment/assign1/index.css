@@ -286,6 +286,7 @@ nav a {
   
   display: grid;
   grid-template-columns: 1fr;
+  gap:20px;
 }
 .grid2{
   margin-top: 15px;
