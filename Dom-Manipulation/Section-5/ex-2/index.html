@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
-    <link rel="stylesheet" href="index.css" >
+    <link rel="stylesheet" href="index.css">
 
-    <script src="index.js" ></script>
+    <script src="index.js"></script>
 </head>
+
 <body>
- 
-  
-    
+    <div class="image-gallery">
+        <div class="thumbnails">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQDIVwNPfp3seMEDSXJEsBQAghccAZDIfPjA&usqp=CAU"
+                alt="image1" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQDIVwNPfp3seMEDSXJEsBQAghccAZDIfPjA&usqp=CAU')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7mKCD-ad1jiSHHKgUKZ-yNh61WUwDQpPRiQ&usqp=CAU"
+                alt="image2" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7mKCD-ad1jiSHHKgUKZ-yNh61WUwDQpPRiQ&usqp=CAU')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcwespBYde7jFFV-DGLE9kYE5NtH6TF_7G7xBlmoU7V9-0kZm-786EyeZXWS-gfIq0unM&usqp=CAU"
+                alt="image3" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcwespBYde7jFFV-DGLE9kYE5NtH6TF_7G7xBlmoU7V9-0kZm-786EyeZXWS-gfIq0unM&usqp=CAU')" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEGCKElKWPVGBlr3pb9arUNI2p7AAKMgWhA&usqp=CAU"
+                alt="image4" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEGCKElKWPVGBlr3pb9arUNI2p7AAKMgWhA&usqp=CAU')" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9zUMlyhf8cAefhB6AXjhe_aR0M6_1ajEZ6uVHU9j7Y1sSKroTwADj0lQ8r_Akm96vUw&usqp=CAU"
+                alt="image5" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9zUMlyhf8cAefhB6AXjhe_aR0M6_1ajEZ6uVHU9j7Y1sSKroTwADj0lQ8r_Akm96vUw&usqp=CAU')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAh9-ADdfU5f6NKcjxn9I-bKDjthuYe4r8aw&usqp=CAU"
+                alt="image6" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAh9-ADdfU5f6NKcjxn9I-bKDjthuYe4r8aw&usqp=CAU')" >
+        </div>
+        <div class="main-image">
+            <img src="" id="mainImg" alt="Main Image">
+        </div>
+    </div>
+
 </body>
+
 </html>

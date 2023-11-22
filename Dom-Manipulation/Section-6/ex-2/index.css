@@ -1,0 +1,30 @@
+body{
+    height:100vh;
+    margin:0%;
+    padding: 0%;
+    width:100%;
+}
+.countries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the size of the square divs */
+    gap: 10px;
+  }
+  
+  .country {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: lightblue; /* Style as desired */
+    height:100px;
+  }
+  
+  .flag {
+    width: 30px; /* Set the flag width */
+    margin-right: 10px; /* Adjust spacing between flag and country name */
+  }
+  
+  /* .country span { white-space: nowrap; 
+  } */
+  
