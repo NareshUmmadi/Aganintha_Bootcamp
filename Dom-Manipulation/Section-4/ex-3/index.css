@@ -1,0 +1,23 @@
+body{
+    margin:0%;
+    padding: 0%;
+}
+
+textarea {
+    width: 95%;
+    height: 100px;
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    resize: none;
+    margin-top:10%;
+    margin-left: 2%;
+   
+}
+
+#characterCount {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+    margin-left:2%;
+}
