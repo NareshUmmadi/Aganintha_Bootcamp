@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter And Search</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="upCard.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="title"><a href="index.html">GL<span><i class="fa-solid fa-globe"></i></span>BAL EVENTS</a></div>
+      <!-- <nav class="menu">
+          <ul class="menu-items">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Events</a></li>
+          </ul>
+      </nav> -->
+      <div class="cta">
+          <a href="javascript:window.location.href=window.location.href"><button class="view-more">View More</button></a>
+          <div class="toggle-button">
+              <input type="checkbox" id="toggle">
+              <label for="toggle" class="toggle-icon">&#9776;</label>
+              <ul class="toggle-menu">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Events</a></li>
+              </ul>
+          </div>
+      </div>
+  </header>
+    
+    <section class="cards-upcoming">
+      <!-- <h2>Up Coming Events...</h2> -->
+      <div class="listingContainer">
+          <form action="#" id="filterForm">
+              <div class="search-bar">
+                  <input type="text" placeholder="Search By Event Name..." id="nameFilter" required>
+                  <!-- <button type="submit"><i class="fas fa-search"></i></button> -->
+              </div>
+              <div class="filters">
+                  <select id="filterOptions">
+                      <option value="all">All</option>
+                      <option value="location">Location</option>
+                      <option value="date">Date</option>
+                      <option value="popularity">Popularity</option>
+                  </select>
+                 
+                  <div class="date-range" id="dateRange">
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate" name="startDate">
+                    <label for="endDate">End Date:</label>
+                    <input type="date" id="endDate" name="endDate">
+                  </div>
+            
+
+                  <div class="submit-button">
+                    <button type="submit" id="submitFilter">Filter</button>
+                  </div>
+                </div>
+              
+          </form>
+          <!-- <div class="error-message" style="display: none;">No events found. Please refine your search.</div> -->
+      </div>
+      <div class="error-message" id="errorMessage">Please enter valid details</div>
+  </section>
+  
+
+
+    <section>
+        
+            <div class="container" id="maincontainer" value="id" click="">
+                
+            </div>
+          </section>
+       
+
+        <!-- <div class="upcmng-btn">
+            <button id="view-more-btn" class="view-more-btn" onclick="card()">View More...</button>
+        </div> -->
+        <footer class="footer">
+          <div class="footergrid1">
+              <h2>GL<span><i class="fa-solid fa-globe"></i></span>BAL&ensp;EVENTS</h2>
+              <br>
+               <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="icon"><i class="fa-brands fa-square-x-twitter"></i></a>
+      
+          </div>
+          <div class="footergrid2">
+              <a href="#" class="icon">Contact us</a>
+             
+              <br>
+              <a href="#" class="icon">FAQ</a>
+            
+              <br>
+              <a href="#" class="icon">Downloads</a>
+           
+              <br>
+              <a href="#" class="icon">Home</a>
+          </div>
+          <div class="footergrid3">
+              <p><i class="fa-solid fa-location-dot"></i>&ensp;Address:India</p>
+              <p>Banjara Hills Rd Number 3, Hyderabad</p>
+              <p>Telangana 500034</p>
+      
+          </div>
+          <div class="footergrid4">
+              <p><i class="fa-solid fa-envelope"></i>&ensp; To Stay Update from Events...</p>
+              <br>
+              <input type="text" placeholder="Enter your Email">
+              <br>
+              <br>
+      
+      
+              <button class="footerbtn">Sign Up..</button>
+      
+          </div>
+      
+        </footer>
+        
+        
+
+  
+    <script src="upCard.js"></script>
+  </body>
+</html>

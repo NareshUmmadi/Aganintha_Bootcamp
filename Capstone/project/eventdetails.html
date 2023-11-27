@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="eventdetails.css">
+    <script src="eventdetails.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="title"><a href="index.html">GL<span><i class="fa-solid fa-globe"></i></span>BAL EVENTS</a></div>
+    <!-- <nav class="menu">
+        <ul class="menu-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+        </ul>
+    </nav> -->
+    <div class="cta">
+        <a href="javascript:window.location.href=window.location.href"><button class="view-more">View More</button></a>
+        <div class="toggle-button">
+            <input type="checkbox" id="toggle">
+            <label for="toggle" class="toggle-icon">&#9776;</label>
+            <ul class="toggle-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+   
+    
+    <div class="event-details-container">
+      <div class="overlay">
+      <div class="image" id="image">
+        <img src="" alt="image">
+      </div>
+      
+          <div class="event-card1">
+            <h2 id="eventTitle">Event Title</h2>
+            <p>Date: <span id="eventDate">Event Date</span></p>
+            <p>Location: <span id="eventLocation">Event Location</span></p>
+            <p>Description: <span id="eventDescription">Event Description</span></p>
+            <p>event_organizer:<span id="eventOrganizer">eventOrganizer</span></p>
+            <!-- Add more details as needed -->
+          </div>
+          <div class="event-card2">
+            <p> Feedback:<span id="eventFeedback" ></span></p>
+            <p>popularity_Score: <span id="popularity"></span></p>
+            <p>venu: <span id="eventVenu">Event Venu</span></p>
+            <button id="bookButton">Book it</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="loadingSpinner" class="spinner"></div>
+
+  <footer class="footer">
+    <div class="footergrid1">
+        <h2>GL<span><i class="fa-solid fa-globe"></i></span>BAL&ensp;EVENTS</h2>
+        
+         <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-square-x-twitter"></i></a>
+
+    </div>
+    <div class="footergrid2">
+        <a href="#" class="icon">Contact us</a>
+       
+        <br>
+        <a href="#" class="icon">FAQ</a>
+      
+        <br>
+        <a href="#" class="icon">Downloads</a>
+     
+        <br>
+        <a href="#" class="icon">Home</a>
+    </div>
+    <div class="footergrid3">
+        <p><i class="fa-solid fa-location-dot"></i>&ensp;Address:India</p>
+        <p>Banjara Hills Rd Number 3, Hyderabad</p>
+        <p>Telangana 500034</p>
+
+    </div>
+    <div class="footergrid4">
+        <p><i class="fa-solid fa-envelope"></i>&ensp; To Stay Update from Events...</p>
+        <br>
+        <input type="text" placeholder="Enter your Email">
+        <br>
+        <br>
+
+
+        <button class="footerbtn">Sign Up..</button>
+
+    </div>
+
+  </footer>
+
+    
+</body>
+</html>
